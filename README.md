@@ -1,7 +1,18 @@
-### Two exercises using Spring Boot to create and query databases.
+### Two projects using Spring Boot to create databases and queries.
 
-Projects created with https://start.spring.io/
+Projects created with https://start.spring.io/ <br>
+Framework: Maven + Java + Spring Boot <br>
+Dependencies: H2 Database + Spring Data JPA + SpringWeb <br>
 
-Framework: Maven + Java + Spring Boot
+Both <b> jparepository </b> and <b> userdept </b> have the same main purpose: to connect the Object Oriented Java program with records in a SQL database. The database was populated with a import.sql file. 
 
-Dependencies: H2 Database + Spring Data JPA + SpringWeb
+The Spring framework provides us with Annotations that save us a lot of time informing the objects relation to the database, like:<br>
+@Id - mark the variable that contains the primary key<br>
+@Generated Value - indicates that the id values will be automatically generated as a new object is created<br>
+@ManyToOne - indicates that that this entity can only have a single relation to the entity below<br>
+@JoinColumn - marks the value as the foreign key used to connect two tables<br>
+@Autowired - eliminates the necessity of instantiate objects by using internal constructors <br>
+@GetMapping - create a HTTP GET method (wich could be POST, PUT or DELETE, for example)<br>
+
+Plus the <b> jparepository </b> project show us that Spring JPA have a feature that eliminates the need to write your own SQL string if you use supported keywords inside methods names (https://docs.spring.io/spring-data/jpa/docs/1.5.0.RELEASE/reference/html/jpa.repositories.html) 
+
