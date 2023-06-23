@@ -4,7 +4,7 @@ Projects created with https://start.spring.io/ <br>
 Framework: Maven + Java + Spring Boot <br>
 Dependencies: H2 Database + Spring Data JPA + SpringWeb <br>
 
-Both <b> jparepository </b> and <b> userdept </b> have the same main purpose: to connect the Object Oriented Java program with records in a SQL database. The database was populated with a import.sql file. 
+Both <b> jparepository </b> and <b> userdept </b> have the same main purpose: to connect the Java program with records in a SQL database. The database was populated with a import.sql file. 
 
 The Spring framework provides us with Annotations that save us a lot of time used to inform the objects relation to the database, like:<br>
 @Id - mark the variable that contains the primary key<br>
