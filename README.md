@@ -1,5 +1,3 @@
-### Two projects using Spring Boot to create databases and queries.
-
 Projects created with https://start.spring.io/ <br>
 Framework: Maven + Java + Spring Boot <br>
 Dependencies: H2 Database + Spring Data JPA + SpringWeb <br>
